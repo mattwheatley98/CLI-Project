@@ -1,0 +1,4 @@
+/opt/clion-2022.3.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=esp32dev -G "CodeBlocks - Unix Makefiles" -S /home/matt/CLionProjects/CLIProject -B /home/matt/CLionProjects/CLIProject/cmake-build-esp32dev
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/matt/CLionProjects/CLIProject/cmake-build-esp32dev

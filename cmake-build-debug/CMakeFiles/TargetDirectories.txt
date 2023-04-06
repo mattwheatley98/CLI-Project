@@ -1,0 +1,5 @@
+/home/matt/Documents/PlatformIO/Projects/CLIProject/cmake-build-debug/CMakeFiles/Production.dir
+/home/matt/Documents/PlatformIO/Projects/CLIProject/cmake-build-debug/CMakeFiles/Debug.dir
+/home/matt/Documents/PlatformIO/Projects/CLIProject/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir
+/home/matt/Documents/PlatformIO/Projects/CLIProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/matt/Documents/PlatformIO/Projects/CLIProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir

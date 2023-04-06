@@ -1,0 +1,10 @@
+//
+// Created by matt on 4/5/23.
+//
+
+#ifndef FREERTOS_CLI_PROJECT_CLIDISPATCHERTASK_H
+#define FREERTOS_CLI_PROJECT_CLIDISPATCHERTASK_H
+
+#endif //FREERTOS_CLI_PROJECT_CLIDISPATCHERTASK_H
+
+void cliDispatcherTask(void *parameter);
