@@ -3059,6 +3059,30 @@ lib/src/cliInputTask.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliInputTask.cpp.s
 .PHONY : lib/src/cliInputTask.cpp.s
 
+lib/src/displayTask.obj: lib/src/displayTask.cpp.obj
+.PHONY : lib/src/displayTask.obj
+
+# target to build an object file
+lib/src/displayTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj
+.PHONY : lib/src/displayTask.cpp.obj
+
+lib/src/displayTask.i: lib/src/displayTask.cpp.i
+.PHONY : lib/src/displayTask.i
+
+# target to preprocess a source file
+lib/src/displayTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.i
+.PHONY : lib/src/displayTask.cpp.i
+
+lib/src/displayTask.s: lib/src/displayTask.cpp.s
+.PHONY : lib/src/displayTask.s
+
+# target to generate assembly for a file
+lib/src/displayTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.s
+.PHONY : lib/src/displayTask.cpp.s
+
 lib/src/ledTask.obj: lib/src/ledTask.cpp.obj
 .PHONY : lib/src/ledTask.obj
 
@@ -3481,6 +3505,9 @@ help:
 	@echo "... lib/src/cliInputTask.obj"
 	@echo "... lib/src/cliInputTask.i"
 	@echo "... lib/src/cliInputTask.s"
+	@echo "... lib/src/displayTask.obj"
+	@echo "... lib/src/displayTask.i"
+	@echo "... lib/src/displayTask.s"
 	@echo "... lib/src/ledTask.obj"
 	@echo "... lib/src/ledTask.i"
 	@echo "... lib/src/ledTask.s"

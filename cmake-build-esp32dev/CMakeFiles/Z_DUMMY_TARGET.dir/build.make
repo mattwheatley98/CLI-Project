@@ -111,10 +111,24 @@ CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliInputTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliInputTask.cpp.s"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matt/CLionProjects/CLIProject/lib/src/cliInputTask.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliInputTask.cpp.s
 
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj: /home/matt/CLionProjects/CLIProject/lib/src/displayTask.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj"
+	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj -c /home/matt/CLionProjects/CLIProject/lib/src/displayTask.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.i"
+	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matt/CLionProjects/CLIProject/lib/src/displayTask.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.s"
+	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matt/CLionProjects/CLIProject/lib/src/displayTask.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.s
+
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj: /home/matt/CLionProjects/CLIProject/lib/src/ledTask.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj -c /home/matt/CLionProjects/CLIProject/lib/src/ledTask.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: /home/matt/CLionProjects/CLIProject/src/main.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj -c /home/matt/CLionProjects/CLIProject/src/main.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.s: cmak
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp.s: cmak
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/mui.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/mui.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui.c.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui.c.s: cmake
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui_u8g2.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui_u8g2.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/mui_u8g2.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui_u8g2.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui_u8g2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui_u8g2.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui_u8g2.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui_u8g2.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui_u8g2.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/mui_u8g2.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui_u8g2.c.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/mui_u8g2.c.s: 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_bitmap.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_bitmap.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_bitmap.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_bitmap.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_bitmap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_bitmap.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_bitmap.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_bitmap.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_bitmap.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_bitmap.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_bitmap.c.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_bitmap.c.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_box.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_box.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_box.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_box.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_box.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_box.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_box.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_box.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_box.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_box.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_box.c.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_box.c.s: 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_buffer.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_buffer.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_buffer.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_buffer.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_buffer.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_buffer.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_buffer.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_buffer.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_buffer.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_buffer.c.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_buffer.c.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_button.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_button.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_button.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_button.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_button.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_button.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_button.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_button.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_button.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_button.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_button.c.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_button.c.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_circle.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_circle.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_circle.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_circle.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_circle.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_circle.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_circle.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_circle.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_circle.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_circle.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_circle.c.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_circle.c.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_cleardisplay.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_cleardisplay.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_cleardisplay.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_cleardisplay.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_cleardisplay.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_cleardisplay.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_cleardisplay.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_cleardisplay.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_cleardisplay.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_cleardisplay.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_cleardisplay.c.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_cleardisp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_memory.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_memory.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_memory.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_memory.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_memory.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_memory.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_memory.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_memory.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_memory.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_memory.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_memory.c.i: cmake_force
@@ -296,7 +310,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_memory.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_setup.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_setup.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_setup.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_setup.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_setup.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_setup.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_setup.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_setup.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_setup.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_setup.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_setup.c.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_d_setup.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_font.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_font.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_font.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_font.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_font.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_font.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_font.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_font.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_font.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_font.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_font.c.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_font.c.s:
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_fonts.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_fonts.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_fonts.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_fonts.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_fonts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_fonts.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_fonts.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_fonts.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_fonts.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_fonts.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_fonts.c.i: cmake_force
@@ -338,7 +352,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_fonts.c.s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_hvline.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_hvline.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_hvline.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_hvline.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_hvline.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_hvline.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_hvline.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_hvline.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_hvline.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_hvline.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_hvline.c.i: cmake_force
@@ -352,7 +366,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_hvline.c.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_input_value.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_input_value.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_input_value.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_input_value.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_input_value.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_input_value.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_input_value.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_input_value.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_input_value.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_input_value.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_input_value.c.i: cmake_force
@@ -366,7 +380,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_input_val
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_intersection.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_intersection.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_intersection.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_intersection.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_intersection.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_intersection.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_intersection.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_intersection.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_intersection.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_intersection.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_intersection.c.i: cmake_force
@@ -380,7 +394,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_intersect
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_kerning.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_kerning.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_kerning.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_kerning.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_kerning.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_kerning.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_kerning.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_kerning.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_kerning.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_kerning.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_kerning.c.i: cmake_force
@@ -394,7 +408,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_kerning.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_line.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_line.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_line.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_line.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_line.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_line.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_line.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_line.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_line.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_line.c.i: cmake_force
@@ -408,7 +422,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_line.c.s:
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_ll_hvline.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_ll_hvline.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_ll_hvline.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_ll_hvline.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_ll_hvline.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_ll_hvline.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_ll_hvline.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_ll_hvline.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_ll_hvline.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_ll_hvline.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_ll_hvline.c.i: cmake_force
@@ -422,7 +436,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_ll_hvline
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_message.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_message.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_message.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_message.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_message.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_message.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_message.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_message.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_message.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_message.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_message.c.i: cmake_force
@@ -436,7 +450,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_message.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_polygon.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_polygon.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_polygon.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_polygon.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_polygon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_polygon.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_polygon.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_polygon.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_polygon.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_polygon.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_polygon.c.i: cmake_force
@@ -450,7 +464,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_polygon.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_selection_list.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_selection_list.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_selection_list.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_selection_list.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_selection_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_selection_list.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_selection_list.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_selection_list.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_selection_list.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_selection_list.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_selection_list.c.i: cmake_force
@@ -464,7 +478,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_selection
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_setup.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_setup.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_setup.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_setup.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_setup.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_setup.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_setup.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_setup.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_setup.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_setup.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_setup.c.i: cmake_force
@@ -478,7 +492,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8g2_setup.c.s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8log.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8log.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log.c.i: cmake_force
@@ -492,7 +506,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log.c.s: cma
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8g2.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8g2.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8g2.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8g2.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8g2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8g2.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8g2.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8g2.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8g2.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8g2.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8g2.c.i: cmake_force
@@ -506,7 +520,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8g2.c.s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8x8.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8x8.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8x8.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8x8.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8x8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8x8.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8x8.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8x8.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8x8.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8x8.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8x8.c.i: cmake_force
@@ -520,7 +534,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8log_u8x8.c.s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_8x8.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_8x8.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_8x8.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_8x8.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_8x8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_8x8.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_8x8.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_8x8.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_8x8.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_8x8.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_8x8.c.i: cmake_force
@@ -534,7 +548,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_8x8.c.s: 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_byte.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_byte.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_byte.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_byte.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_byte.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_byte.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_byte.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_byte.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_byte.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_byte.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_byte.c.i: cmake_force
@@ -548,7 +562,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_byte.c.s:
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_cad.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_cad.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_cad.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_cad.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_cad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_cad.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_cad.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_cad.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_cad.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_cad.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_cad.c.i: cmake_force
@@ -562,7 +576,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_cad.c.s: 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_capture.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_capture.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_capture.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_capture.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_capture.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_capture.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_capture.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_capture.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_capture.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_capture.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_capture.c.i: cmake_force
@@ -576,7 +590,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_capture.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_a2printer.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_a2printer.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_a2printer.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_a2printer.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_a2printer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_a2printer.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_a2printer.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_a2printer.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_a2printer.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_a2printer.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_a2printer.c.i: cmake_force
@@ -590,7 +604,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_a2print
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1247ai.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1247ai.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1247ai.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1247ai.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1247ai.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1247ai.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1247ai.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1247ai.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1247ai.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1247ai.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1247ai.c.i: cmake_force
@@ -604,7 +618,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1247a
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1287ai.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1287ai.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1287ai.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1287ai.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1287ai.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1287ai.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1287ai.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1287ai.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1287ai.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1287ai.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1287ai.c.i: cmake_force
@@ -618,7 +632,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gp1287a
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gu800.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gu800.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gu800.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gu800.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gu800.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gu800.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gu800.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gu800.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gu800.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gu800.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gu800.c.i: cmake_force
@@ -632,7 +646,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_gu800.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_hd44102.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_hd44102.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_hd44102.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_hd44102.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_hd44102.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_hd44102.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_hd44102.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_hd44102.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_hd44102.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_hd44102.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_hd44102.c.i: cmake_force
@@ -646,7 +660,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_hd44102
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_il3820_296x128.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_il3820_296x128.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_il3820_296x128.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_il3820_296x128.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_il3820_296x128.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_il3820_296x128.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_il3820_296x128.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_il3820_296x128.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_il3820_296x128.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_il3820_296x128.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_il3820_296x128.c.i: cmake_force
@@ -660,7 +674,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_il3820_
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3020.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3020.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3020.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3020.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3020.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3020.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3020.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3020.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3020.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3020.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3020.c.i: cmake_force
@@ -674,7 +688,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3020
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3088.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3088.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3088.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3088.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3088.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3088.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3088.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3088.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3088.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3088.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3088.c.i: cmake_force
@@ -688,7 +702,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist3088
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist7920.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist7920.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist7920.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist7920.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist7920.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist7920.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist7920.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist7920.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist7920.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist7920.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist7920.c.i: cmake_force
@@ -702,7 +716,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ist7920
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ks0108.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ks0108.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ks0108.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ks0108.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ks0108.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ks0108.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ks0108.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ks0108.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ks0108.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ks0108.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ks0108.c.i: cmake_force
@@ -716,7 +730,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ks0108.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_lc7981.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_lc7981.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_lc7981.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_lc7981.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_lc7981.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_lc7981.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_lc7981.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_lc7981.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_lc7981.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_lc7981.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_lc7981.c.i: cmake_force
@@ -730,7 +744,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_lc7981.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ld7032_60x32.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ld7032_60x32.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ld7032_60x32.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ld7032_60x32.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ld7032_60x32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ld7032_60x32.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ld7032_60x32.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ld7032_60x32.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ld7032_60x32.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ld7032_60x32.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ld7032_60x32.c.i: cmake_force
@@ -744,7 +758,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ld7032_
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ls013b7dh03.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ls013b7dh03.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ls013b7dh03.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ls013b7dh03.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ls013b7dh03.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ls013b7dh03.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ls013b7dh03.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ls013b7dh03.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ls013b7dh03.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ls013b7dh03.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ls013b7dh03.c.i: cmake_force
@@ -758,7 +772,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ls013b7
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_max7219.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_max7219.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_max7219.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_max7219.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_max7219.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_max7219.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_max7219.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_max7219.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_max7219.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_max7219.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_max7219.c.i: cmake_force
@@ -772,7 +786,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_max7219
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcd8544_84x48.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcd8544_84x48.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcd8544_84x48.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcd8544_84x48.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcd8544_84x48.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcd8544_84x48.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcd8544_84x48.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcd8544_84x48.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcd8544_84x48.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcd8544_84x48.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcd8544_84x48.c.i: cmake_force
@@ -786,7 +800,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcd8544
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8812.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8812.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8812.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8812.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8812.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8812.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8812.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8812.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8812.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8812.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8812.c.i: cmake_force
@@ -800,7 +814,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8812
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8814_hx1230.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8814_hx1230.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8814_hx1230.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8814_hx1230.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8814_hx1230.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8814_hx1230.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8814_hx1230.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8814_hx1230.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8814_hx1230.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8814_hx1230.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8814_hx1230.c.i: cmake_force
@@ -814,7 +828,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_pcf8814
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15300.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15300.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15300.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15300.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15300.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15300.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15300.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15300.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15300.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15300.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15300.c.i: cmake_force
@@ -828,7 +842,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d1530
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15721.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15721.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15721.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15721.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15721.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15721.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15721.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15721.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15721.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15721.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15721.c.i: cmake_force
@@ -842,7 +856,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d1572
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15e06.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15e06.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15e06.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15e06.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15e06.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15e06.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15e06.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15e06.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15e06.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15e06.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15e06.c.i: cmake_force
@@ -856,7 +870,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_s1d15e0
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sbn1661.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sbn1661.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sbn1661.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sbn1661.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sbn1661.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sbn1661.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sbn1661.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sbn1661.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sbn1661.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sbn1661.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sbn1661.c.i: cmake_force
@@ -870,7 +884,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sbn1661
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sed1330.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sed1330.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sed1330.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sed1330.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sed1330.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sed1330.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sed1330.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sed1330.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sed1330.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sed1330.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sed1330.c.i: cmake_force
@@ -884,7 +898,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sed1330
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_64x32.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_64x32.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_64x32.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_64x32.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_64x32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_64x32.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_64x32.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_64x32.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_64x32.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_64x32.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_64x32.c.i: cmake_force
@@ -898,7 +912,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_72x40.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_72x40.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_72x40.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_72x40.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_72x40.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_72x40.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_72x40.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_72x40.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_72x40.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_72x40.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_72x40.c.i: cmake_force
@@ -912,7 +926,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1106_
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1107.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1107.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1107.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1107.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1107.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1107.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1107.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1107.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1107.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1107.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1107.c.i: cmake_force
@@ -926,7 +940,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1107.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1108.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1108.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1108.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1108.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1108.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1108.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1108.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1108.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1108.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1108.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1108.c.i: cmake_force
@@ -940,7 +954,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1108.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1122.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1122.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1122.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1122.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1122.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1122.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1122.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1122.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1122.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1122.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1122.c.i: cmake_force
@@ -954,7 +968,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_sh1122.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1305.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1305.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1305.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1305.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1305.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1305.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1305.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1305.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1305.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1305.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1305.c.i: cmake_force
@@ -968,7 +982,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1305
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x32.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x32.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x32.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x32.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x32.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x32.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x32.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x32.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x32.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x32.c.i: cmake_force
@@ -982,7 +996,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x64_noname.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x64_noname.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x64_noname.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x64_noname.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x64_noname.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x64_noname.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x64_noname.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x64_noname.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x64_noname.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x64_noname.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_128x64_noname.c.i: cmake_force
@@ -996,7 +1010,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_2040x16.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_2040x16.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_2040x16.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_2040x16.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_2040x16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_2040x16.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_2040x16.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_2040x16.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_2040x16.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_2040x16.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_2040x16.c.i: cmake_force
@@ -1010,7 +1024,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_48x64.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_48x64.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_48x64.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_48x64.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_48x64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_48x64.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_48x64.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_48x64.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_48x64.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_48x64.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_48x64.c.i: cmake_force
@@ -1024,7 +1038,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x32.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x32.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x32.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x32.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x32.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x32.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x32.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x32.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x32.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x32.c.i: cmake_force
@@ -1038,7 +1052,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x48.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x48.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x48.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x48.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x48.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x48.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x48.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x48.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x48.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x48.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_64x48.c.i: cmake_force
@@ -1052,7 +1066,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_72x40.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_72x40.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_72x40.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_72x40.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_72x40.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_72x40.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_72x40.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_72x40.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_72x40.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_72x40.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_72x40.c.i: cmake_force
@@ -1066,7 +1080,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x16.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x16.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x16.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x16.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x16.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x16.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x16.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x16.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x16.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x16.c.i: cmake_force
@@ -1080,7 +1094,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x40.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x40.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x40.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x40.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x40.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x40.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x40.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x40.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x40.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x40.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306_96x40.c.i: cmake_force
@@ -1094,7 +1108,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1306
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1309.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1309.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1309.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1309.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1309.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1309.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1309.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1309.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1309.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1309.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1309.c.i: cmake_force
@@ -1108,7 +1122,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1309
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1316.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1316.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1316.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1316.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1316.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1316.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1316.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1316.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1316.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1316.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1316.c.i: cmake_force
@@ -1122,7 +1136,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1316
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1317.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1317.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1317.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1317.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1317.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1317.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1317.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1317.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1317.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1317.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1317.c.i: cmake_force
@@ -1136,7 +1150,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1317
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1318.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1318.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1318.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1318.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1318.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1318.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1318.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1318.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1318.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1318.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1318.c.i: cmake_force
@@ -1150,7 +1164,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1318
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1320.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1320.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1320.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1320.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1320.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1320.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1320.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1320.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1320.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1320.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1320.c.i: cmake_force
@@ -1164,7 +1178,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1320
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1322.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1322.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1322.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1322.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1322.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1322.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1322.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1322.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1322.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1322.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1322.c.i: cmake_force
@@ -1178,7 +1192,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1322
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1325.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1325.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1325.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1325.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1325.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1325.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1325.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1325.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1325.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1325.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1325.c.i: cmake_force
@@ -1192,7 +1206,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1325
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1326.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1326.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1326.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1326.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1326.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1326.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1326.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1326.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1326.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1326.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1326.c.i: cmake_force
@@ -1206,7 +1220,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1326
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1327.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1327.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1327.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1327.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1327.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1327.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1327.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1327.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1327.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1327.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1327.c.i: cmake_force
@@ -1220,7 +1234,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1327
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1329.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1329.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1329.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1329.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1329.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1329.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1329.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1329.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1329.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1329.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1329.c.i: cmake_force
@@ -1234,7 +1248,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1329
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1362.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1362.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1362.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1362.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1362.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1362.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1362.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1362.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1362.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1362.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1362.c.i: cmake_force
@@ -1248,7 +1262,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1362
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1606_172x72.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1606_172x72.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1606_172x72.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1606_172x72.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1606_172x72.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1606_172x72.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1606_172x72.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1606_172x72.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1606_172x72.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1606_172x72.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1606_172x72.c.i: cmake_force
@@ -1262,7 +1276,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1606
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1607_200x200.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1607_200x200.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1607_200x200.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1607_200x200.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1607_200x200.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1607_200x200.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1607_200x200.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1607_200x200.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1607_200x200.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1607_200x200.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1607_200x200.c.i: cmake_force
@@ -1276,7 +1290,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_ssd1607
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7511.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7511.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7511.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7511.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7511.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7511.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7511.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7511.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7511.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7511.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7511.c.i: cmake_force
@@ -1290,7 +1304,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7511.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75160.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75160.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75160.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75160.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75160.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75160.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75160.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75160.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75160.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75160.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75160.c.i: cmake_force
@@ -1304,7 +1318,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75160
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75256.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75256.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75256.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75256.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75256.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75256.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75256.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75256.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75256.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75256.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75256.c.i: cmake_force
@@ -1318,7 +1332,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75256
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7528.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7528.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7528.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7528.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7528.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7528.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7528.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7528.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7528.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7528.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7528.c.i: cmake_force
@@ -1332,7 +1346,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7528.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75320.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75320.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75320.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75320.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75320.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75320.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75320.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75320.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75320.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75320.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75320.c.i: cmake_force
@@ -1346,7 +1360,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st75320
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7539.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7539.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7539.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7539.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7539.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7539.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7539.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7539.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7539.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7539.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7539.c.i: cmake_force
@@ -1360,7 +1374,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7539.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7565.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7565.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7565.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7565.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7565.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7565.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7565.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7565.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7565.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7565.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7565.c.i: cmake_force
@@ -1374,7 +1388,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7565.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7567.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7567.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7567.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7567.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7567.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7567.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7567.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7567.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7567.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7567.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7567.c.i: cmake_force
@@ -1388,7 +1402,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7567.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7571.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7571.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7571.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7571.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7571.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7571.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7571.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7571.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7571.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7571.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7571.c.i: cmake_force
@@ -1402,7 +1416,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7571.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_erc240160.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_erc240160.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_erc240160.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_erc240160.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_erc240160.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_erc240160.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_erc240160.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_erc240160.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_erc240160.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_erc240160.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_erc240160.c.i: cmake_force
@@ -1416,7 +1430,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_jlx384160.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_jlx384160.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_jlx384160.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_jlx384160.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_jlx384160.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_jlx384160.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_jlx384160.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_jlx384160.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_jlx384160.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_jlx384160.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_jlx384160.c.i: cmake_force
@@ -1430,7 +1444,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_s028hn118a.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_s028hn118a.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_s028hn118a.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_s028hn118a.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_s028hn118a.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_s028hn118a.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_s028hn118a.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_s028hn118a.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_s028hn118a.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_s028hn118a.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_s028hn118a.c.i: cmake_force
@@ -1444,7 +1458,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_ymc240160.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_ymc240160.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_ymc240160.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_ymc240160.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_ymc240160.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_ymc240160.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_ymc240160.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_ymc240160.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_ymc240160.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_ymc240160.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s_ymc240160.c.i: cmake_force
@@ -1458,7 +1472,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7586s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7588.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7588.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7588.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7588.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7588.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7588.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7588.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7588.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7588.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7588.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7588.c.i: cmake_force
@@ -1472,7 +1486,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7588.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7920.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7920.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7920.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7920.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7920.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7920.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7920.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7920.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7920.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7920.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7920.c.i: cmake_force
@@ -1486,7 +1500,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_st7920.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_t6963.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_t6963.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_t6963.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_t6963.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_t6963.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_t6963.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_t6963.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_t6963.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_t6963.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_t6963.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_t6963.c.i: cmake_force
@@ -1500,7 +1514,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_t6963.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1601.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1601.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1601.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1601.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1601.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1601.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1601.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1601.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1601.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1601.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1601.c.i: cmake_force
@@ -1514,7 +1528,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1601.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1604.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1604.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1604.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1604.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1604.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1604.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1604.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1604.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1604.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1604.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1604.c.i: cmake_force
@@ -1528,7 +1542,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1604.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1608.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1608.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1608.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1608.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1608.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1608.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1608.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1608.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1608.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1608.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1608.c.i: cmake_force
@@ -1542,7 +1556,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1608.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1609.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1609.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1609.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1609.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1609.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1609.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1609.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1609.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1609.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1609.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1609.c.i: cmake_force
@@ -1556,7 +1570,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1609.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1610.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1610.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1610.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1610.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1610.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1610.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1610.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1610.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1610.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1610.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1610.c.i: cmake_force
@@ -1570,7 +1584,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1610.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1611.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1611.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1611.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1611.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1611.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1611.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1611.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1611.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1611.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1611.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1611.c.i: cmake_force
@@ -1584,7 +1598,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1611.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1617.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1617.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1617.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1617.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1617.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1617.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1617.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1617.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1617.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1617.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1617.c.i: cmake_force
@@ -1598,7 +1612,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1617.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1638.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1638.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1638.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1638.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1638.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1638.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1638.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1638.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1638.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1638.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1638.c.i: cmake_force
@@ -1612,7 +1626,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1638.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_dogs102.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_dogs102.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_dogs102.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_dogs102.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_dogs102.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_dogs102.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_dogs102.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_dogs102.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_dogs102.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_dogs102.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_dogs102.c.i: cmake_force
@@ -1626,7 +1640,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_mini12864.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_mini12864.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_mini12864.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_mini12864.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_mini12864.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_mini12864.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_mini12864.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_mini12864.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_mini12864.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_mini12864.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_mini12864.c.i: cmake_force
@@ -1640,7 +1654,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_d_uc1701_
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_debounce.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_debounce.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_debounce.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_debounce.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_debounce.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_debounce.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_debounce.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_debounce.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_debounce.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_debounce.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_debounce.c.i: cmake_force
@@ -1654,7 +1668,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_debounce.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_display.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_display.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_display.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_display.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_display.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_display.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_display.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_display.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_display.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_display.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_display.c.i: cmake_force
@@ -1668,7 +1682,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_display.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_fonts.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_fonts.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_fonts.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_fonts.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_fonts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_fonts.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_fonts.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_fonts.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_fonts.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_fonts.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_fonts.c.i: cmake_force
@@ -1682,7 +1696,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_fonts.c.s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_gpio.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_gpio.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_gpio.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_gpio.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_gpio.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_gpio.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_gpio.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_gpio.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_gpio.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_gpio.c.i: cmake_force
@@ -1696,7 +1710,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_gpio.c.s:
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_input_value.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_input_value.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_input_value.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_input_value.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_input_value.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_input_value.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_input_value.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_input_value.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_input_value.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_input_value.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_input_value.c.i: cmake_force
@@ -1710,7 +1724,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_input_val
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_message.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_message.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_message.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_message.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_message.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_message.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_message.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_message.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_message.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_message.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_message.c.i: cmake_force
@@ -1724,7 +1738,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_message.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_selection_list.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_selection_list.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_selection_list.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_selection_list.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_selection_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_selection_list.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_selection_list.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_selection_list.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_selection_list.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_selection_list.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_selection_list.c.i: cmake_force
@@ -1738,7 +1752,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_selection
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_setup.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_setup.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_setup.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_setup.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_setup.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_setup.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_setup.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_setup.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_setup.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_setup.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_setup.c.i: cmake_force
@@ -1752,7 +1766,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_setup.c.s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c.i: cmake_force
@@ -1766,7 +1780,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c.i: cmake_force
@@ -1780,7 +1794,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.obj: /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.obj"
 	/home/matt/.platformio/packages/toolchain-xtensa-esp32@8.4.0+2021r2-patch5/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.obj -c /home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.i: cmake_force
@@ -1796,6 +1810,7 @@ Z_DUMMY_TARGET_OBJECTS = \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/buzzTask.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliDispatcherTask.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliInputTask.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.obj" \
@@ -1923,6 +1938,7 @@ Z_DUMMY_TARGET_EXTERNAL_OBJECTS =
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/buzzTask.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliDispatcherTask.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliInputTask.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.obj
@@ -2045,7 +2061,7 @@ Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/cli
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/build.make
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Linking CXX executable Z_DUMMY_TARGET"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matt/CLionProjects/CLIProject/cmake-build-esp32dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Linking CXX executable Z_DUMMY_TARGET"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Z_DUMMY_TARGET.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
