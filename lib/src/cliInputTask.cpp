@@ -2,8 +2,8 @@
 // Created by matt on 4/5/23.
 //
 
-#include "cliInputTask.h"
 #include <Arduino.h>
+#include "cliInputTask.h"
 
 void cliInputTask(void *parameter) {
     char buffer[20];
@@ -19,9 +19,7 @@ void cliInputTask(void *parameter) {
             if (c == '\n') {
                 buffer[i - 2] = '\0';
                 //Serial.println(buffer);
-                if (xQueueSend(inputQueue, &buffer, 0) == pdTRUE) {
-                    Serial.println("Successfully sent to queue!");
-                } else {
+                if (xQueueSend(inputQueue, &buffer, 0) == pdFALSE) {
                     Serial.println("Something went wrong!");
                 }
                 memset(buffer, 0, 20);

@@ -8,3 +8,6 @@
 #endif //FREERTOS_CLI_PROJECT_CLIDISPATCHERTASK_H
 
 void cliDispatcherTask(void *parameter);
+
+extern QueueHandle_t buzzQueue;
+extern QueueHandle_t ledQueue;
