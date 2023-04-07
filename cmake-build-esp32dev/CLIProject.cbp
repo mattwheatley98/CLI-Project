@@ -1171,6 +1171,12 @@
 		<Unit filename="/home/matt/CLionProjects/CLIProject/lib/src/cliInputTask.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/lib/src/displayTask.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/lib/src/displayTask.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
 		<Unit filename="/home/matt/CLionProjects/CLIProject/lib/src/ledTask.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>

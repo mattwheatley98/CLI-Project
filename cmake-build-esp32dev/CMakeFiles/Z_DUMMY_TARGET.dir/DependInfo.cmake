@@ -129,6 +129,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/matt/CLionProjects/CLIProject/lib/src/buzzTask.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/buzzTask.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/buzzTask.cpp.obj.d"
   "/home/matt/CLionProjects/CLIProject/lib/src/cliDispatcherTask.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliDispatcherTask.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliDispatcherTask.cpp.obj.d"
   "/home/matt/CLionProjects/CLIProject/lib/src/cliInputTask.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliInputTask.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliInputTask.cpp.obj.d"
+  "/home/matt/CLionProjects/CLIProject/lib/src/displayTask.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj.d"
   "/home/matt/CLionProjects/CLIProject/lib/src/ledTask.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj.d"
   "/home/matt/CLionProjects/CLIProject/src/main.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj.d"
   )

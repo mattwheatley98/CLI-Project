@@ -14,7 +14,7 @@ void cliDispatcherTask(void *parameter) {
                 xQueueSend(buzzQueue, buffer + 5, 0);
             } else if (strstr(buffer, "led ")) {
                 xQueueSend(ledQueue, buffer + 4, 0);
-            }
+             }
         }
     }
 }

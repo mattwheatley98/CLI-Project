@@ -241,6 +241,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliDispatcherTask.cpp.obj.d"
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliInputTask.cpp.obj"
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliInputTask.cpp.obj.d"
+  "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj"
+  "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj.d"
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj"
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj.d"
   "CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
