@@ -2987,30 +2987,6 @@ Z_DUMMY_TARGET/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.s
 .PHONY : .pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.s
 
-lib/src/buzzTask.obj: lib/src/buzzTask.cpp.obj
-.PHONY : lib/src/buzzTask.obj
-
-# target to build an object file
-lib/src/buzzTask.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/buzzTask.cpp.obj
-.PHONY : lib/src/buzzTask.cpp.obj
-
-lib/src/buzzTask.i: lib/src/buzzTask.cpp.i
-.PHONY : lib/src/buzzTask.i
-
-# target to preprocess a source file
-lib/src/buzzTask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/buzzTask.cpp.i
-.PHONY : lib/src/buzzTask.cpp.i
-
-lib/src/buzzTask.s: lib/src/buzzTask.cpp.s
-.PHONY : lib/src/buzzTask.s
-
-# target to generate assembly for a file
-lib/src/buzzTask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/buzzTask.cpp.s
-.PHONY : lib/src/buzzTask.cpp.s
-
 lib/src/cliDispatcherTask.obj: lib/src/cliDispatcherTask.cpp.obj
 .PHONY : lib/src/cliDispatcherTask.obj
 
@@ -3496,9 +3472,6 @@ help:
 	@echo "... .pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.obj"
 	@echo "... .pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.i"
 	@echo "... .pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.s"
-	@echo "... lib/src/buzzTask.obj"
-	@echo "... lib/src/buzzTask.i"
-	@echo "... lib/src/buzzTask.s"
 	@echo "... lib/src/cliDispatcherTask.obj"
 	@echo "... lib/src/cliDispatcherTask.i"
 	@echo "... lib/src/cliDispatcherTask.s"

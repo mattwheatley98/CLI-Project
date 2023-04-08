@@ -235,8 +235,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c.obj.d"
   "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.obj"
   "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.obj.d"
-  "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/buzzTask.cpp.obj"
-  "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/buzzTask.cpp.obj.d"
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliDispatcherTask.cpp.obj"
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliDispatcherTask.cpp.obj.d"
   "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliInputTask.cpp.obj"
