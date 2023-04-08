@@ -18,7 +18,6 @@ void cliInputTask(void *parameter) {
             i++;
             if (c == '\n') {
                 buffer[i - 2] = '\0';
-                //Serial.println(buffer);
                 if (xQueueSend(inputQueue, buffer, 0) == pdFALSE) Serial.println("Something went wrong!");
                 memset(buffer, 0, 20);
                 i = 0;

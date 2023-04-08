@@ -11,3 +11,4 @@ void cliDispatcherTask(void *parameter);
 
 extern QueueHandle_t buzzQueue;
 extern QueueHandle_t ledQueue;
+extern QueueHandle_t messageQueue;

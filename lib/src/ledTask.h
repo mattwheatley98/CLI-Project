@@ -8,3 +8,5 @@
 #endif //CLIPROJECT_LEDTASKS_H
 
 void ledTask(void *parameter);
+
+extern SemaphoreHandle_t interruptLedSemaphore;

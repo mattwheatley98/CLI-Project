@@ -5,12 +5,36 @@
 #include <Arduino.h>
 #include "cliDispatcherTask.h"
 #include "displayTask.h"
+#include "ledTask.h"
 
 void displayQueueSend(char *buffer);
 
 void ledTask(void *parameter) {
     char buffer[20];
+    pinMode(15, INPUT); //Shock pin
+    pinMode(22, OUTPUT); //Buzz pin
+    pinMode(33, OUTPUT); //Green
+    pinMode(32, OUTPUT); // Yellow
+    pinMode(27, OUTPUT); // Red
+    pinMode(26, OUTPUT); // Blue
+
     while (1) {
+        if (xSemaphoreTake(interruptLedSemaphore, 0) == pdTRUE) {
+            for (int i = 0; i < 4; ++i) {
+                digitalWrite(27, HIGH);
+                digitalWrite(33, HIGH);
+                digitalWrite(26, HIGH);
+                digitalWrite(32, HIGH);
+                digitalWrite(22, HIGH); //BUZZ
+                vTaskDelay(125 / portTICK_PERIOD_MS);
+                digitalWrite(27, LOW);
+                digitalWrite(33, LOW);
+                digitalWrite(26, LOW);
+                digitalWrite(32, LOW);
+                digitalWrite(22, LOW); //BUZZ
+                vTaskDelay(125 / portTICK_PERIOD_MS);
+            }
+        }
         if (xQueueReceive(ledQueue, buffer, 0) == pdTRUE) {
             if (strstr(buffer, "red")) {
                 if (strcmp(buffer + 4, "on") == 0) {

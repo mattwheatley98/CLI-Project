@@ -5,6 +5,8 @@
 #include <Arduino.h>
 #include </home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.h>
 #include "displayTask.h"
+#include "cliDispatcherTask.h"
+
 #define OLED_DC 4
 #define OLED_CS 5
 #define OLED_RES 2
@@ -12,47 +14,82 @@
 void displayInput(char *buffer, char *redStatus, char *greenStatus, char *blueStatus, char *yellowStatus);
 
 void displayTask(void *parameter) {
-    U8G2_SH1106_128X64_NONAME_F_4W_HW_SPI u8g2(U8G2_R0, OLED_CS, OLED_DC, OLED_RES);
-    u8g2.begin();
+    U8G2_SH1106_128X64_NONAME_F_4W_HW_SPI display(U8G2_R0, OLED_CS, OLED_DC, OLED_RES);
+    display.begin();
 
     char buffer[20];
+    char messageBuffer[20] = "";
     char redStatus[] = "OFF";
     char greenStatus[] = "OFF";
     char blueStatus[] = "OFF";
     char yellowStatus[] = "OFF";
 
     while (1) {
-        displayInput(buffer, redStatus, greenStatus, blueStatus, yellowStatus);
+        if (xSemaphoreTake(interruptDisplaySemaphore, 0) == pdTRUE) {
+            display.clearBuffer();
+            display.setFont(u8g2_font_ncenB08_tr);
 
-        u8g2.clearBuffer();
-        u8g2.setFont(u8g2_font_ncenB08_tr);
+            for (int i = 0; i < 4; ++i) {
+                display.clearBuffer();
+                display.sendBuffer();
+                vTaskDelay(125 / portTICK_PERIOD_MS);
+                display.setCursor(30, 30);
+                display.print("INTERRUPT");
+                display.setCursor(35, 45);
+                display.print("DETECTED");
+                display.sendBuffer();
+                vTaskDelay(125 / portTICK_PERIOD_MS);
+            }
+            strcpy(redStatus, "OFF");
+            strcpy(greenStatus, "OFF");
+            strcpy(blueStatus, "OFF");
+            strcpy(yellowStatus, "OFF");
+        } else {
+            display.clearBuffer();
+            display.setFont(u8g2_font_ncenB08_tr);
+            displayInput(buffer, redStatus, greenStatus, blueStatus, yellowStatus);
+            if (xQueueReceive(messageQueue, messageBuffer, 0) == pdTRUE) {}
+            display.setCursor(0, 15);
+            display.print("Red");
+            display.setCursor(0, 25);
+            display.print(redStatus);
 
-        u8g2.setCursor(0, 15);
-        u8g2.print("Red");
-        u8g2.setCursor(0, 25);
-        u8g2.print(redStatus);
+            display.setCursor(30, 15);
+            display.print("Grn");
+            display.setCursor(30, 25);
+            display.print(greenStatus);
 
-        u8g2.setCursor(30, 15);
-        u8g2.print("Grn");
-        u8g2.setCursor(30, 25);
-        u8g2.print(greenStatus);
+            display.setCursor(0, 50);
+            display.print("Blu");
+            display.setCursor(0, 60);
+            display.print(blueStatus);
 
-        u8g2.setCursor(0, 50);
-        u8g2.print("Blu");
-        u8g2.setCursor(0, 60);
-        u8g2.print(blueStatus);
+            display.setCursor(30, 50);
+            display.print("Ylw");
+            display.setCursor(30, 60);
+            display.print(yellowStatus);
 
-        u8g2.setCursor(30, 50);
-        u8g2.print("Ylw");
-        u8g2.setCursor(30, 60);
-        u8g2.print(yellowStatus);
+            //Temp/Humid
+            display.setCursor(62, 15);
+            display.print("Tmp:");
+            display.setCursor(96, 15);
+            display.print("10F");
+            display.setCursor(62, 25);
+            display.print("Hmd:");
+            display.setCursor(96, 25);
+            display.print("100");
 
-        //Vertical line
-        u8g2.drawLine(56, 0, 56, 60);
-        //Horizontal line
-        u8g2.drawLine(56, 32, 0, 32);
+            display.setCursor(62, 52);
+            display.print(messageBuffer);
 
-        u8g2.sendBuffer();
+
+            //Vertical line
+            display.drawLine(56, 0, 56, 60);
+            //Horizontal line
+            display.drawLine(128, 32, 0, 32);
+
+            display.sendBuffer();
+        }
     }
 }
 
