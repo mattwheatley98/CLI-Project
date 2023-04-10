@@ -598,6 +598,81 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/Adafruit Unified Sensor/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/Adafruit Unified Sensor/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/Adafruit Unified Sensor/Adafruit_Sensor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/Adafruit Unified Sensor/Adafruit_Sensor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/Adafruit Unified Sensor/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/Adafruit Unified Sensor/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/Adafruit Unified Sensor/examples/sensortest/sensortest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/Adafruit Unified Sensor/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/CONTRIBUTING.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/DHT.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/DHT.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/DHT_U.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/DHT_U.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/code-of-conduct.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/examples/DHT_Unified_Sensor/DHT_Unified_Sensor.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/examples/DHTtester/DHTtester.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/license.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
 		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/.piopm">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
@@ -988,12 +1063,6 @@
 		<Unit filename="/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/integrity.dat">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/home/matt/CLionProjects/CLIProject/lib/src/cliDispatcherTask.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="/home/matt/CLionProjects/CLIProject/lib/src/cliDispatcherTask.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
 		<Unit filename="/home/matt/CLionProjects/CLIProject/lib/src/cliInputTask.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
@@ -1010,6 +1079,12 @@
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
 		<Unit filename="/home/matt/CLionProjects/CLIProject/lib/src/ledTask.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/lib/src/temperatureTask.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/matt/CLionProjects/CLIProject/lib/src/temperatureTask.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
 		<Unit filename="/home/matt/CLionProjects/CLIProject/src/main.cpp">

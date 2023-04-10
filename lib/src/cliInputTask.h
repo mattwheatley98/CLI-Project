@@ -10,5 +10,8 @@
 #endif //FREERTOS_CLI_PROJECT_CLIMAINTASK_H
 
 void cliInputTask(void *parameter);
+
 extern QueueHandle_t inputQueue;
+extern QueueHandle_t ledQueue;
+extern QueueHandle_t messageQueue;
 
