@@ -155,6 +155,78 @@ Z_DUMMY_TARGET/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/build
 .PHONY : Z_DUMMY_TARGET/fast
 
+.pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.obj: .pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj
+.PHONY : .pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.obj
+
+# target to build an object file
+.pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj
+.PHONY : .pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj
+
+.pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.i: .pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.i
+.PHONY : .pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.i
+
+# target to preprocess a source file
+.pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.i
+.PHONY : .pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.i
+
+.pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.s: .pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s
+.PHONY : .pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.s
+
+# target to generate assembly for a file
+.pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s
+.PHONY : .pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s
+
+.pio/libdeps/esp32dev/DHT_sensor_library/DHT.obj: .pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.obj
+.PHONY : .pio/libdeps/esp32dev/DHT_sensor_library/DHT.obj
+
+# target to build an object file
+.pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.obj
+.PHONY : .pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.obj
+
+.pio/libdeps/esp32dev/DHT_sensor_library/DHT.i: .pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.i
+.PHONY : .pio/libdeps/esp32dev/DHT_sensor_library/DHT.i
+
+# target to preprocess a source file
+.pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.i
+.PHONY : .pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.i
+
+.pio/libdeps/esp32dev/DHT_sensor_library/DHT.s: .pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.s
+.PHONY : .pio/libdeps/esp32dev/DHT_sensor_library/DHT.s
+
+# target to generate assembly for a file
+.pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.s
+.PHONY : .pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.s
+
+.pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.obj: .pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.obj
+.PHONY : .pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.obj
+
+# target to build an object file
+.pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.obj
+.PHONY : .pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.obj
+
+.pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.i: .pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.i
+.PHONY : .pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.i
+
+# target to preprocess a source file
+.pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.i
+.PHONY : .pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.i
+
+.pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.s: .pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.s
+.PHONY : .pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.s
+
+# target to generate assembly for a file
+.pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.s
+.PHONY : .pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.s
+
 .pio/libdeps/esp32dev/U8g2/src/U8g2lib.obj: .pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.obj
 .PHONY : .pio/libdeps/esp32dev/U8g2/src/U8g2lib.obj
 
@@ -2987,30 +3059,6 @@ Z_DUMMY_TARGET/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.s
 .PHONY : .pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.s
 
-lib/src/cliDispatcherTask.obj: lib/src/cliDispatcherTask.cpp.obj
-.PHONY : lib/src/cliDispatcherTask.obj
-
-# target to build an object file
-lib/src/cliDispatcherTask.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliDispatcherTask.cpp.obj
-.PHONY : lib/src/cliDispatcherTask.cpp.obj
-
-lib/src/cliDispatcherTask.i: lib/src/cliDispatcherTask.cpp.i
-.PHONY : lib/src/cliDispatcherTask.i
-
-# target to preprocess a source file
-lib/src/cliDispatcherTask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliDispatcherTask.cpp.i
-.PHONY : lib/src/cliDispatcherTask.cpp.i
-
-lib/src/cliDispatcherTask.s: lib/src/cliDispatcherTask.cpp.s
-.PHONY : lib/src/cliDispatcherTask.s
-
-# target to generate assembly for a file
-lib/src/cliDispatcherTask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliDispatcherTask.cpp.s
-.PHONY : lib/src/cliDispatcherTask.cpp.s
-
 lib/src/cliInputTask.obj: lib/src/cliInputTask.cpp.obj
 .PHONY : lib/src/cliInputTask.obj
 
@@ -3083,6 +3131,30 @@ lib/src/ledTask.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.s
 .PHONY : lib/src/ledTask.cpp.s
 
+lib/src/temperatureTask.obj: lib/src/temperatureTask.cpp.obj
+.PHONY : lib/src/temperatureTask.obj
+
+# target to build an object file
+lib/src/temperatureTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/temperatureTask.cpp.obj
+.PHONY : lib/src/temperatureTask.cpp.obj
+
+lib/src/temperatureTask.i: lib/src/temperatureTask.cpp.i
+.PHONY : lib/src/temperatureTask.i
+
+# target to preprocess a source file
+lib/src/temperatureTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/temperatureTask.cpp.i
+.PHONY : lib/src/temperatureTask.cpp.i
+
+lib/src/temperatureTask.s: lib/src/temperatureTask.cpp.s
+.PHONY : lib/src/temperatureTask.s
+
+# target to generate assembly for a file
+lib/src/temperatureTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/temperatureTask.cpp.s
+.PHONY : lib/src/temperatureTask.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -3118,6 +3190,15 @@ help:
 	@echo "... Debug"
 	@echo "... Production"
 	@echo "... Z_DUMMY_TARGET"
+	@echo "... .pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.obj"
+	@echo "... .pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.i"
+	@echo "... .pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.s"
+	@echo "... .pio/libdeps/esp32dev/DHT_sensor_library/DHT.obj"
+	@echo "... .pio/libdeps/esp32dev/DHT_sensor_library/DHT.i"
+	@echo "... .pio/libdeps/esp32dev/DHT_sensor_library/DHT.s"
+	@echo "... .pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.obj"
+	@echo "... .pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.i"
+	@echo "... .pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.s"
 	@echo "... .pio/libdeps/esp32dev/U8g2/src/U8g2lib.obj"
 	@echo "... .pio/libdeps/esp32dev/U8g2/src/U8g2lib.i"
 	@echo "... .pio/libdeps/esp32dev/U8g2/src/U8g2lib.s"
@@ -3472,9 +3553,6 @@ help:
 	@echo "... .pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.obj"
 	@echo "... .pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.i"
 	@echo "... .pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.s"
-	@echo "... lib/src/cliDispatcherTask.obj"
-	@echo "... lib/src/cliDispatcherTask.i"
-	@echo "... lib/src/cliDispatcherTask.s"
 	@echo "... lib/src/cliInputTask.obj"
 	@echo "... lib/src/cliInputTask.i"
 	@echo "... lib/src/cliInputTask.s"
@@ -3484,6 +3562,9 @@ help:
 	@echo "... lib/src/ledTask.obj"
 	@echo "... lib/src/ledTask.i"
 	@echo "... lib/src/ledTask.s"
+	@echo "... lib/src/temperatureTask.obj"
+	@echo "... lib/src/temperatureTask.i"
+	@echo "... lib/src/temperatureTask.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

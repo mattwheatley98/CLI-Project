@@ -124,12 +124,15 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_string.c.obj.d"
   "/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u16toa.c.obj.d"
   "/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/clib/u8x8_u8toa.c.obj.d"
+  "/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/Adafruit Unified Sensor/Adafruit_Sensor.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj.d"
+  "/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/DHT.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/DHT_sensor_library/DHT.cpp.obj.d"
+  "/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/DHT sensor library/DHT_U.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/DHT_sensor_library/DHT_U.cpp.obj.d"
   "/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8g2lib.cpp.obj.d"
   "/home/matt/CLionProjects/CLIProject/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/esp32dev/U8g2/src/U8x8lib.cpp.obj.d"
-  "/home/matt/CLionProjects/CLIProject/lib/src/cliDispatcherTask.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliDispatcherTask.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliDispatcherTask.cpp.obj.d"
   "/home/matt/CLionProjects/CLIProject/lib/src/cliInputTask.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliInputTask.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/cliInputTask.cpp.obj.d"
   "/home/matt/CLionProjects/CLIProject/lib/src/displayTask.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/displayTask.cpp.obj.d"
   "/home/matt/CLionProjects/CLIProject/lib/src/ledTask.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/ledTask.cpp.obj.d"
+  "/home/matt/CLionProjects/CLIProject/lib/src/temperatureTask.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/temperatureTask.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/lib/src/temperatureTask.cpp.obj.d"
   "/home/matt/CLionProjects/CLIProject/src/main.cpp" "CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj.d"
   )
 
