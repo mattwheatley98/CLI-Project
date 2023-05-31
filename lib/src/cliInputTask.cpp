@@ -5,7 +5,6 @@
 #include <Arduino.h>
 #include "cliInputTask.h"
 
-//Task that monitors for and sends standard input to the Dispatcher Task
 void cliInputTask(void *parameter) {
     char buffer[20];
     char c;
@@ -24,6 +23,13 @@ void cliInputTask(void *parameter) {
                 if (xQueueSend(inputQueue, buffer, 0) == pdFALSE) Serial.println("Something went wrong!");
                 if (strstr(buffer, "led ")) {
                     xQueueSend(ledQueue, buffer + 4, 0);
+                }
+                if (strstr(buffer, "help")) {
+                    Serial.println("Available commands are:");
+                    Serial.println("led [red][green][blue][yellow] on");
+                    Serial.println("led [red][green][blue][yellow] off");
+                    Serial.println("led all on");
+                    Serial.println("led all off");
                 }
                 memset(buffer, 0, 20);
                 i = 0;

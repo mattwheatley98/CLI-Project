@@ -13,5 +13,4 @@ void cliInputTask(void *parameter);
 
 extern QueueHandle_t inputQueue;
 extern QueueHandle_t ledQueue;
-extern QueueHandle_t messageQueue;
 

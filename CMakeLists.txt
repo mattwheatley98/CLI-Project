@@ -30,4 +30,4 @@ add_custom_target(
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-add_executable(Z_DUMMY_TARGET ${SRC_LIST} lib/src/cliInputTask.h lib/src/ledTask.cpp lib/src/displayTask.h lib/src/temperatureTask.h lib/src/temperatureTask.cpp)
+add_executable(Z_DUMMY_TARGET ${SRC_LIST} lib/src/cliInputTask.h lib/src/ledTask.cpp lib/src/displayTask.h lib/src/temperatureTask.h lib/src/temperatureTask.cpp lib/src/temperatureTask.cpp)

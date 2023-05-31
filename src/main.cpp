@@ -8,7 +8,6 @@
 QueueHandle_t inputQueue;
 QueueHandle_t ledQueue;
 QueueHandle_t displayQueue;
-QueueHandle_t messageQueue;
 QueueHandle_t temperatureQueue;
 QueueHandle_t humidityQueue;
 
@@ -37,7 +36,6 @@ void setup() {
     inputQueue = xQueueCreate(3, sizeof(char) * 20);
     ledQueue = xQueueCreate(3, sizeof(char) * 20);
     displayQueue = xQueueCreate(3, sizeof(char) * 20);
-    messageQueue = xQueueCreate(3, sizeof(char) * 20);
     temperatureQueue = xQueueCreate(3, sizeof(char) * 20);
     humidityQueue = xQueueCreate(3, sizeof(char) * 20);
 

@@ -8,7 +8,6 @@
 #include "cliInputTask.h"
 #include "temperatureTask.h"
 
-//Pin constants for wiring and initializing the SH1106 display
 #define OLED_DC 4
 #define OLED_CS 5
 #define OLED_RES 2
@@ -104,7 +103,7 @@ void displayTask(void *parameter) {
             display.print(receivedHumidity);
 
             //Receives all standard input and prints it to the display
-            xQueueReceive(messageQueue, messageBuffer, 0);
+            xQueueReceive(inputQueue, messageBuffer, 0);
             display.setCursor(62, 52);
             display.print(messageBuffer);
 
