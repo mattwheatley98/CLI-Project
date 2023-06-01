@@ -1,13 +1,13 @@
 # CLI Project
 
-This is a very simple project that uses serial input and a shock detector to influence tasks relating to LED toggling, displaying information on an OLED display, using a temperature sensor, and triggering an ISR and deferring its interrupt.
+This is a very simple project that uses serial input and a shock detector to influence tasks relating to LED toggling, displaying information on an OLED display, using a temperature sensor, and triggering an ISR with a deferred interrupt.
 
-The main features of this project are as follows:
+The main features of this project include:
 
-1. **OLED SPI Information Display.** The display has three separate areas for displaying: the status of each LED, read temperature and humidity values, and all serial input.
-2. **LED Toggling.** There are five LEDs in this project and four of them can be toggled with serial commands. The LEDs can be toggled individually, or all at once, and each LEDs status will be reflected on the display. 
-3. **Temperature & Humidity Reading.** Every quarter second, the current area's temperature and humidity is read and shown on the display.
-4. **Deferred Interrupts.** When a shock is detected, interrupts will be deferred to the display and LED tasks. The display will begin blinking a message that an interrupt occurred, while the LEDs blink in tandem.
+1. **OLED SPI Information Display.** The display has three separate areas for displaying: the status of each LED, temperature and humidity values, and all serial input.
+2. **LED Toggling.** There are five LEDs in this project and four of them can be toggled with serial commands. The LEDs can be toggled individually, or all at once, and each LED's status will be reflected on the display. 
+3. **Temperature & Humidity Reading.** Every second, the room's temperature and humidity is read and shown on the display.
+4. **Deferred Interrupts.** When a shock is detected, interrupts will be deferred to the display and LED tasks. The LEDs will blink on and off during the interrupt and the display will blink an message that an interrupt occurred.
 
 ## OLED SPI Information Display
 Display Overview  | Serial Input Display
