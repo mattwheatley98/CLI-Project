@@ -12,19 +12,19 @@ The main features of this project are as follows:
 ## OLED SPI Information Display
 Display Overview  | Serial Input Display
 ------------- | -------------
-<img src="GIF HERE" width = 350 height = 700>  |  <img src="GIF HERE" width = 350 height = 700>
+<img src="https://github.com/mattwheatley98/CLI-Project/assets/113391095/1c145805-81d4-4fd0-b58a-280c40789594" width = 350 height = 700>  |  <img src="https://github.com/mattwheatley98/CLI-Project/assets/113391095/0fc2f2b7-7bcc-4163-94cd-a94bca3e6975" width = 350 height = 700>
 
 ## LED Toggling
 Individual LED Toggling  | Group LED Toggling
 ------------- | -------------
-<img src="GIF HERE" width = 350 height = 700>  |  <img src="GIF HERE" width = 350 height = 700>
+<video src="https://github.com/mattwheatley98/CLI-Project/assets/113391095/e1a52fc7-449e-4fd5-ba61-b65659688a8e" width = 350 height = 700>  |  <video src="https://github.com/mattwheatley98/CLI-Project/assets/113391095/a22d338d-afda-4f2b-85e5-cca19ebe8173" width = 350 height = 700>
 
 ## Temperature & Humidity Reading
 Read Temperature & Humidity  | 
 ------------- |
-<img src="GIF HERE" width = 350 height = 700>  |  
+<video src="https://github.com/mattwheatley98/CLI-Project/assets/113391095/d2a89756-ffab-423d-84e2-88dfaa5359ad" width = 350 height = 700>  |  
 
 ## Deferred Interrupts
 Detecting Shock |
 ------------- |
-<img src="GIF HERE" width = 350 height = 700>  |
+<video src="https://github.com/mattwheatley98/CLI-Project/assets/113391095/7fd282a0-2e31-4d9c-9d79-c01f73efa59b" width = 350 height = 700>  |
