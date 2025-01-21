@@ -2,11 +2,7 @@
 // Created by matt on 4/8/23.
 //
 
-
-#ifndef CLIPROJECT_TEMPERATURETASK_H
-#define CLIPROJECT_TEMPERATURETASK_H
-
-#endif //CLIPROJECT_TEMPERATURETASK_H
+#pragma once
 
 void temperatureTask(void *parameter);
 
